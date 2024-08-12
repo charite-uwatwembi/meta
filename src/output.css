@@ -1058,6 +1058,14 @@ video {
   padding-right: 1.25rem;
 }
 
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
