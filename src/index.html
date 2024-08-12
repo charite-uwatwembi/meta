@@ -114,29 +114,29 @@
 
 <!-- first section -->
 
-<div class=" border rounded-sm h-full">
-    <div>
-        <h1 class="font-semibold text-6xl text-gray-800">Ray- Ban Meta<br>
-            
-            smart glasses<br>
-        </h1>
+<div class="relative border rounded-xl h-full overflow-hidden py-28 px-12 m-8 ">
+    <!-- Video Background -->
+    <video class="absolute inset-0 object-cover w-full h-full z-[-1]" autoplay loop muted>
+        <source src="/utilities/rayban.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <div class="relative flex flex-col space-y-8 p-8">
+        <h1 class="font-semibold text-6xl text-gray-500">Ray-Ban Meta<br>smart glasses<br></h1>
         <p class="text-gray-500">Capture, share and stay in the moment, completely<br> hands-free.</p>
         <div class="flex space-x-2">
-            <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full">Shop All Styles</button>
-            <div class="flex items-center ">
+            <button class="bg-blue-700 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-full">Shop All Styles</button>
+            <div class="flex items-center hover-underline underline-offset-8 ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
-                    <circle cx="12" cy="12" r="8" fill="#FFFFFF" background-color="#ffffff" stroke="#d1d5db" stroke-width="0.1" />
+                    <circle cx="12" cy="12" r="8" fill="#FFFFFF" stroke="#d1d5db" stroke-width="0.1" />
                     <path fill="#1E40AF" d="M12 2zm-1.293 15.707-1.414-1.414L13.586 12 9.293 7.707l1.414-1.414L16.414 12l-5.707 5.707z" 
                       transform="translate(7, 7) scale(0.4)" />
-                  </svg>
-
-                  <p class="text-blue-700 font-bold text-sm">Learn More</p>
-                  
+                </svg>
+                <p class="text-blue-700 font-bold text-sm">Learn More</p>
             </div>
-              
         </div>
     </div>
-
 </div>
+
 </body>
 </html>
