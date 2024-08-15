@@ -1304,6 +1304,10 @@ video {
   color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
 .group:hover .group-hover\:flex {
   display: flex;
 }
