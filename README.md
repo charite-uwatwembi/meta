@@ -1,1 +1,1 @@
-This is how far i am with clonning meta.com website.
+meta.com website clone.
